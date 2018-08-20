@@ -7,4 +7,6 @@ At a minimum the solution should:
 3. Deploy the application
 4. Apply general best practices around scale and performance
 
+Testing your deployment:
 
+Once the application is deploy you should be able to test a prime number by submitting a get request with the `test` parameter. For example `curl -v "localhost:9090?test=2"` will return `true`
